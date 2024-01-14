@@ -5,8 +5,15 @@
 #include "NumericalMethod.hpp"
 
 class BisectionMethod : public NumericalMethod {
+private:
+    double l;
+    double r;
+    double mid;
+    double tolerance;
 public:
-    double solve(double leftEndpoint, double rightEndPoint, double tolerence) const;
+    double solve() override;
+    BisectionMethod(double endPoint0, double endPoint1, double tolerance);
+    double function(double x);
 };
 
 #endif

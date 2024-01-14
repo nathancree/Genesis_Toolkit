@@ -6,7 +6,7 @@ class NumericalMethod {
 private:
     // private vars would go here
 public:
-    virtual double solve() const = 0;
+    virtual double solve() = 0;
     virtual ~NumericalMethod() {}
 };
 
