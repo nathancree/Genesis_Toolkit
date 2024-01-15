@@ -6,6 +6,9 @@
 #include <string>
 
 class BisectionMethod : public NumericalMethod {
+// Basic root finding algorithm. Need to start with a left side endpoint and right side endpoint that straddle a root
+// f(x) and f(y) need to be opposite signs
+// Works best when you can see the graph of f(x) and can approximate points
 private:
     double l;
     double r;
