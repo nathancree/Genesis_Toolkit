@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    BisectionMethod bisection(-3, 3, 0.001);
+    BisectionMethod bisection("x*x-16",-3, 5, 0.001);
     double result = bisection.solve();
 
     std::cout << "Result: " << result << std::endl;
