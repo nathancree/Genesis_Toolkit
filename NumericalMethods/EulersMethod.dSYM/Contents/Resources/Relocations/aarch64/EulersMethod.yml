@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/nathancree/dev/personal_projects/Genesis_Toolkit/main'
+binary-path:     '/Users/nathancree/dev/personal_projects/Genesis_Toolkit/NumericalMethods/EulersMethod'
 relocations:
   - { offsetInCU: 0x2EF8, offset: 0x2EF8, size: 0x8, addend: 0x0, symName: __ZNSt3__124__put_character_sequenceB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m, symObjAddr: 0x664, symBinAddr: 0x10000277C, symSize: 0x1EC }
   - { offsetInCU: 0x4836, offset: 0x4836, size: 0x8, addend: 0x0, symName: __ZNSt3__1lsB7v160006INS_11char_traitsIcEEEERNS_13basic_ostreamIcT_EES6_PKc, symObjAddr: 0x2F4, symBinAddr: 0x10000240C, symSize: 0x48 }

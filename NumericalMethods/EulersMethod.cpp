@@ -18,7 +18,7 @@ double EulerMethod::function(double x, double y) {
 }
 
 double EulerMethod::solve() {
-    while (x < target) {
+    while (abs(target - x) > 0.0001) { 
         y = y + h * function(x, y);
         x = x + h;
     }
