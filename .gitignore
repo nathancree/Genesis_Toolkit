@@ -32,3 +32,7 @@
 *.app
 helloworld/helloworld.dSYM/Contents/Info.plist
 .DS_Store
+build-Genesis_Toolkit_qt-Qt_6_6_1_for_macOS-Debug
+Genesis_Toolkit_qt/.gitignore
+Genesis_Toolkit_qt/Genesis_Toolkit_qt.pro.user
+Genesis_Toolkit_qt/Genesis_Toolkit_qt.pro
